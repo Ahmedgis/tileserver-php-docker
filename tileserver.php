@@ -10,7 +10,7 @@
 global $config;
 $config['serverTitle'] = 'Maps hosted with TileServer-php v2.0';
 $config['availableFormats'] = ['png', 'jpg', 'jpeg', 'gif', 'webp', 'pbf', 'hybrid'];
-$config['dataRoot'] = '';
+$config['dataRoot'] = 'data';
 //$config['template'] = 'template.php';
 //$config['baseUrls'] = ['t0.server.com', 't1.server.com'];
 
