@@ -10,15 +10,15 @@ RewriteEngine on
 #RewriteBase /directory/
 
 # Option: some hostings require -MultiViews e.g. 1&1.com
-#Options -MultiViews
+Options -MultiViews
  
 # Option: Restrictions for data crawlers
-#Options -Indexes
+Options -Indexes
 
 # Option: CORS header for cross-domain origin access to all data
-#<ifModule mod_headers.c>
-#  Header set Access-Control-Allow-Origin *
-#</ifModule>
+<ifModule mod_headers.c>
+  Header set Access-Control-Allow-Origin *
+</ifModule>
 
 # Block direct downloading of .mbtiles
 <FilesMatch "\.mbtiles$">
