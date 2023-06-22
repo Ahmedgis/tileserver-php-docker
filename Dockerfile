@@ -24,4 +24,4 @@ RUN echo "ServerName localhost" > /etc/apache2/conf-available/servername.conf &&
 COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
 
 # create tiles directory - to be used with data volume
-RUN mkdir /var/www/data
+RUN mkdir /var/www/html/data
